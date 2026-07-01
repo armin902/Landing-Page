@@ -2,3 +2,8 @@ a {
    text-decoration: none;
    color: gray;
 }
+
+img {
+    width: 390px;
+    height: 170px;
+}
