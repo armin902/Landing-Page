@@ -79,16 +79,35 @@ h2 {
 
 .main-quote-container {
     display: flex;
-    padding: 100px;
+    padding: 80px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.additonal-quote-container {
+    display: flex;
     flex-wrap: wrap;
+    padding: 160px;
+}
+
+.quote-container-top, .quote-container-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-container-top {
     justify-content: center;
     align-items: center;
 }
 
-.quote-container {
-    display: flex;
-    flex-wrap: wrap;
+.quote-container-bottom {
+    justify-content: flex-end;
+    font-weight: 800;
 }
 
 a {
