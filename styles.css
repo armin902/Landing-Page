@@ -23,15 +23,18 @@ h1 {
 
 h2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 32px;
 }
+
 .top-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 126px;
     flex: 1;
+    background-color: lightcoral;
 }
 
 .top-left-container {
@@ -53,11 +56,11 @@ h2 {
 .middle-container {
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 32px;
-    padding: 63px;
 }
 
 .middle-img-text-container {
@@ -68,9 +71,33 @@ h2 {
     max-width: 390px;
 }
 
+.total-img-text-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.main-quote-container {
+    display: flex;
+    padding: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 a {
    text-decoration: none;
     color: rgb(212, 15, 15);
+}
+
+p {
+    display: flex;
 }
 
 img {
