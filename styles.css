@@ -110,6 +110,59 @@ h2 {
     font-weight: 800;
 }
 
+.bottom-section-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 48px;
+}
+
+.bubble-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: rgb(95, 95, 230);
+    flex-wrap: wrap;
+    gap: 124px;
+}
+
+.call-header {
+    font-weight: 800;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 0;
+}
+
+h6 {
+    margin: 0;
+}
+
+.call-text {
+    margin: 0;
+    color: white;
+}
+
+.call-left-container {
+    justify-content: center;
+}
+
+.call-button {
+    display: flex;
+}
+
+.call-right-container {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+}
+
 a {
    text-decoration: none;
     color: rgb(212, 15, 15);
@@ -117,6 +170,7 @@ a {
 
 p {
     display: flex;
+    margin: 0;
 }
 
 img {
